@@ -1,4 +1,5 @@
 ﻿using DistanceConverter.Views;
+
 namespace DistanceConverter;
 
 public partial class App : Application
@@ -7,6 +8,6 @@ public partial class App : Application
     {
         InitializeComponent();
 
-        MainPage = new NavigationPage(new DistancePage());
+        MainPage = new AppShell();
     }
 }
